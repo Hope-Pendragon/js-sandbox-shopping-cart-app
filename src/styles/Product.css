@@ -7,16 +7,7 @@
   justify-items: center;
   flex-wrap: wrap;
 }
-button {
-  margin-top: 25px;
-  margin-bottom: auto;
-  padding: 10px;
-  color: white;
-  border: none;
-  cursor: pointer;
-  background-color: rgba(21, 26, 42, 0.787);
-}
-.card {
+.products-container > .card {
   width: 250px;
   height: 250px;
   display: flex;
@@ -26,24 +17,32 @@ button {
   justify-content: center;
   box-shadow: 5px 5px 10px #ccc;
 }
-.card img {
+.products-container > .card img {
   width: 90%;
   height: 40%;
 }
-.card > p {
+.products-container > .card > p {
   padding: 10px;
   font-size: 30px;
 }
-.card:hover {
+.products-container > .card:hover {
   box-shadow: 10px 10px 20px #ccc;
 }
 
-.orderBtn {
-  width: 200px;
-  background: orangered;
+button {
+  margin: 25px 0 auto 0;
+  padding: 10px;
   border: none;
+  background-color: rgba(21, 26, 42, 0.787);
+  color: white;
   cursor: pointer;
 }
-.orderBtn:hover {
+button .orderBtn {
+  width: 200px;
+  border: none;
+  background: orangered;
+  cursor: pointer;
+}
+button .orderBtn:hover {
   background: rgb(89, 0, 190);
 }

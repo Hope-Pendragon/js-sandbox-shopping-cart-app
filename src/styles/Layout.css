@@ -3,7 +3,7 @@
   flex-direction: column;
   flex: 1;
 }
-.total-price {
+.layout > .total-price {
   text-align: right;
   margin-right: 50px;
   margin-bottom: 20px;

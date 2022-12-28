@@ -1,4 +1,5 @@
 .header-nav {
+  position: -webkit-sticky;
   position: sticky;
   box-shadow: 0px 10px 20px #ccc;
   margin-bottom: 10px;
